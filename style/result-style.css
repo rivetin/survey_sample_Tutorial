@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: .7s;
+}
+
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: rgb(236, 236, 236);
+    color: #535353;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+}
+
+header h1{
+    font-size: 6vw;
+    color: #535353;
+    align-self: center;
+}
+
+header div{
+    margin: 20px;
+}
+
+.logo-img{
+    width: 30vh;
+    height: 30vh;
+    min-width: 80px;
+    min-height: 80px;
+    align-self: center;
+}
+
+main{
+      display: flex;
+      width: 85%;
+      margin: auto;
+      justify-content: center;
+  }
+
+main h1 {
+    color: #535353;
+    font-size: 5vh;
+}
+
+table{
+    width: 80vw;
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 20vh;
+    text-align: left;
+    background:rgb(186, 236, 248);
+}
+
+table th, table td{
+    padding: 10px;
+    width: 20vw;
+}
+
+table td:nth-child(odd){
+    max-width: 10px;
+}
+
+table tr:nth-child(even){
+    background: rgb(169, 213, 224);
+}
+
+/* meter{
+    width: 100%;
+} */
+
+meter {
+    --background: #cccccc;
+    --optimum: rgb(33, 133, 24);
+    --sub-optimum: gold;
+    --sub-sub-optimum: crimson;
+
+    /* The gray background in Firefox */
+    background: var(--background);
+    margin: 5px 0px;
+    width: 100%;
+}
+  
+/* The gray background in Chrome, etc. */
+meter::-webkit-meter-bar {
+background: var(--background);
+}
+
+/* The green (optimum) bar in Firefox */
+meter:-moz-meter-optimum::-moz-meter-bar {
+background: var(--optimum);
+}
+
+/* The green (optimum) bar in Chrome etc. */
+meter::-webkit-meter-optimum-value {
+background: var(--optimum);
+}
+
+/* The yellow (sub-optimum) bar in Firefox */
+meter:-moz-meter-sub-optimum::-moz-meter-bar {
+background: var(--sub-optimum);
+}
+
+/* The yellow (sub-optimum) bar in Chrome etc. */
+meter::-webkit-meter-suboptimum-value {
+background: var(--sub-optimum);
+}
+
+/* The red (even less good) bar in Firefox */
+meter:-moz-meter-sub-sub-optimum::-moz-meter-bar {
+background: var(--sub-sub-optimum);
+}
+
+/* The red (even less good) bar in Chrome etc. */
+meter::-webkit-meter-even-less-good-value {
+background: var(--sub-sub-optimum);
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 700px){
+    .logo-img{
+        width: 30vw;
+        height: 30vw;
+    }
+    header h1{
+        font-size: 6vw;
+        margin-top: 20px;
+    }
+}
