@@ -2,30 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <meta name="discription" content="Survey For Dev | Simplest survey application">
-    <link rel="icon" href="./images/icon.ico">
-    <link rel="stylesheet" href="style/sliderstyle.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600&display=swap" rel="stylesheet">
+    <meta name="keywords" content="developers.wtf, survey, feedback, mbc, mbccet">
+    <meta name="description" content="Survey For Dev | Simplest survey application">
+    <link rel="stylesheet" href="style/forms_1.0.css">
+    <link rel="icon" href="./images/logo.png">
     <title>Developer.WTF | Survey</title>
 </head>
 <body>
     <header>
-        <div>
-            <img class="logo-img" src="images/logo.png" alt="developers.wtf-logo" height="50px">
-        </div>
-        <div>
-            <h1>Developers.WTF | Survey</h1>
-        </div>
+      <h1>Community Survey</h1>
+      <h2>Thank you for your participation.</h2>
+      <img src="./images/logo.png" alt="Survey logo"/>
     </header>
-    <main class="main-section">
-        <h1>Successfully <br> Submitted. ☺️</h1>
-        
-    </main>
+
+    <div class="Survey">
+        <form method="post" action="submit.php">
+            <div class="container nepal">
+                <div class="form-item neymar">
+                    <h3>We've received your response</h3>
+                    <br>
+                    <p>Thank you for taking the time to complete this survey. We truly value the information you have provided. Your responses will contribute to our analyses and improvement of our community.</p>
+                    <br>
+                    <p style='float:right'>- Core Committee</p>
+                </div>
+            </div>
+
+        </form>
+    </div>
 </body>
-<?php
-header( "refresh:5;url=index.php" );
-?>
 </html>

@@ -50,7 +50,7 @@
     </header>
     <main class="main-section">
 
-        <div id="container" style="width: 75%">
+        <div id="container" style="width: 75%;margin:0 auto"> <!-- Hehe -->
             <canvas id="canvas"></canvas>
         </div>
         <button id="FetchButton" class="FetchButton">FetchButton</button>
