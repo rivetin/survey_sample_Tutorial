@@ -2,39 +2,20 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/chart.css">
-    <meta name="discription" content="Survey For Dev | Simplest survey application">
-    <link rel="icon" href="./images/icon.ico">
-    <link rel="stylesheet" href="style/sliderstyle.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@090;200;400;500;600&display=swap"
+    <meta name="keywords" content="developers.wtf, survey, feedback, mbc, mbccet">
+    <meta name="description" content="Survey For Dev | Simplest survey application">
+    <link rel="stylesheet" href="style/forms_1.0.css">
+    <link rel="icon" href="./images/logo.png">
+    <title>Developer.WTF | Survey</title>
         rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
     <!--<script src="main.js" ></script>-->
     <script src="utils.js"></script>
     <script type="text/javascript" id="display"></script>
-    <script type='text/javascript'>
-
-
-        // function fetch_new() {
-        //     $.ajax({
-
-        //         type: 'POST',
-        //         url: 'ajax.php',
-        //         data: { fetchChartData: 1 },
-        //         success: function (html) {
-        //             document.getElementById('display').innerHTML = html;
-        //          alert(html)
-
-
-        //         }
-        //     });
-        // }
-
-    </script>
+    <script type='text/javascript'></script>
 
     <title>Developer.WTF | Survey</title>
 </head>
@@ -144,3 +125,5 @@
 
 
 </html>
+
+

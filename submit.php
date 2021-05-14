@@ -60,11 +60,19 @@ while($row_survey = mysqli_fetch_array($run_survey)){
     
 }
 
-$usr_insert_qry = "INSERT INTO survey_entry (email, name) VALUES ('$usr_email','$usr_name')";
-$usr_insert_qry = mysqli_query($conn, $usr_insert_qry);
+$usr_insert_qry = "INSERT INTO survey_entry (email, name, python, javascript, ccpp, java, php, csharp, kotlin,
+swift, pearl, htmlcss, python_k, js_k, ccpp_k, java_k, php_k, cs_k, kot_k, swift_k, perl_k, htcss_k) 
+VALUES ('$usr_email','$usr_name','$python_kscore','$javascript_kscore','$ccpp_kscore','$java_kscore','$php_kscore','$csharp_kscore','$kotlin_kscore',
+'$swift_kscore','$pearl_kscore','$htmlcss_kscore','$python_iscore','$javascript_iscore',
+'$ccpp_iscore','$java_iscore','$php_iscore','$csharp_iscore','$kotlin_iscore','$swift_iscore','$pearl_iscore','$htmlcss_iscore')";
 
-if($usr_insert_qry){
-    header("Location: success.php");
+###1054 - Unknown column 'wegdddwr@gmail.com' in 'field list'
+
+##You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''email', 'name', 'python', 'javascript', 'ccpp', 'java', 'php', 'csharp', 'ko...' at line 1
+
+
+if(mysqli_query($conn, $usr_insert_qry)){
+   header("Location: success.php"); 
 }
 else{
     header("Location: error.php");
