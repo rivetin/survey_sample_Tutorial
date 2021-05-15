@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="developers.wtf, survey, feedback, mbc, mbccet">
     <meta name="description" content="Survey For Dev | Simplest survey application">
-    <link rel="stylesheet" href="style/forms_1.0.css">
+    <link rel="stylesheet" href="style/forms_2.0.css">
     <link rel="icon" href="./images/logo.png">
     <title>Developer.WTF | Survey</title>
 </head>
