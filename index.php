@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description"
+        content="The Dev Survey from Developers.wtf. Developers.wtf evoloved with the aim of bridging the gap between students and professionals. With that in mind we hold monthly meetups and technical sessions by experts from the industry. Come let’s get socialised and delve into the world of learning with the real world developers and professionals. With an idea to bridge the gap between the professionals and new comers. We would love you to join and see how we can make a difference together.">
+    <meta property="og:image" content="http://developers.wtf/logo/DevSoc-Logo_trans.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="developers.wtf, survey, feedback, mbc, mbccet">
@@ -13,7 +16,7 @@
 <body>
     <header>
       <h1>Community Survey</h1>
-      <h2>Thanks for taking the time to provide feedback</h2>
+      <h2>Thanks for taking the time to provide feedback.<br> <small><small>There are 10 optional questions each with 2 sliders.</small></small></h2>
       <img src="./images/logo.png" alt="Survey logo"/>
     </header>
 
