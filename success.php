@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,11 +11,12 @@
     <link rel="icon" href="./images/logo.png">
     <title>Developer.WTF | Survey</title>
 </head>
+
 <body>
     <header>
-      <h1>Community Survey</h1>
-      <h2>Thank you for your participation.</h2>
-      <img src="./images/logo.png" alt="Survey logo"/>
+        <h1>Community Survey</h1>
+        <h2>Thank you for your participation.</h2>
+        <img src="./images/logo.png" alt="Survey logo" />
     </header>
 
     <div class="Survey">
@@ -23,7 +25,9 @@
                 <div class="form-item neymar">
                     <h3>We've received your response</h3>
                     <br>
-                    <p>Thank you for taking the time to complete this survey. We truly value the information you have provided. Your responses will contribute to our analyses and improvement of our community.</p>
+                    <p>Thank you for taking the time to complete this survey. We truly value the information you have
+                        provided. Your responses will contribute to our analyses and improvement of our community. Click
+                        to join <a href="http://developers.wtf/join">Developers WTF</a>.</p>
                     <br>
                     <p style='float:right'>- Core Committee</p>
                 </div>
@@ -32,4 +36,5 @@
         </form>
     </div>
 </body>
+
 </html>

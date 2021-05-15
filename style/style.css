@@ -46,6 +46,8 @@ header div{
     margin: 20px;
 }
 
+a { color: inherit; } 
+
 .logo-img{
     width: 30vh;
     height: 30vh;
